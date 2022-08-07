@@ -1,0 +1,41 @@
+/*footer*/
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    gap: 70px;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background: var(--footer-color);
+    transition: color var(--transition);
+}
+
+.footer .logo {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+
+}
+
+.footer:hover,
+.footer:focus {
+    color: var(--primary-color);
+}
+
+.web {
+    transition: color var(--transition);
+}
+
+.web:hover,
+.web:focus {
+    color: var(--white-color);
+}
