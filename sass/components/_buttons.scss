@@ -20,13 +20,12 @@
     border-radius: 4px;
     border: none;
     transition: background color var(--transition);
-}
 
-.hero-button:hover,
-.hero-button:focus {
+    &:hover,
+    &:focus {
     background-color: var(--submit-btn);
+    }
 }
-
 /*Button Portfolio*/
 
 .filter-container {
