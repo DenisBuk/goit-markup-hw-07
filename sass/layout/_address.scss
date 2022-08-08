@@ -8,28 +8,30 @@
 .logo-white {
     color: var(--white-color);
     transition: color var(--transition);
-}
 
-.logo-white:hover,
-.logo-white:focus {
+    &:hover,
+    &:focus {
     color: var(--blue-color);
+    }
 }
 
 .address-link {
     color: var(--white-color);
     transition: color var(--transition);
-}
 
-.address-link:hover,
-.address-link:focus {
+
+    &:hover,
+    &:focus {
     color: var(--blue-color);
+    }
 }
 
 .address-mail {
     transition: color var(--transition);
-}
 
-.address-mail:hover,
-.address-mail:focus {
+
+    &:hover,
+    &:focus {
     color: var(--blue-color);
+}
 }
