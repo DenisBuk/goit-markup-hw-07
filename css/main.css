@@ -293,9 +293,7 @@ img {
   -webkit-transition: color var(--transition);
   transition: color var(--transition);
 }
-
-.logo-black:hover,
-.logo-black:focus {
+.logo-black:hover, .logo-black:focus {
   color: var(--blue-color);
 }
 
@@ -589,14 +587,12 @@ img {
   -webkit-transition: color var(--transition);
   transition: color var(--transition);
 }
+.clients-link:hover, .clients-link:focus {
+  color: var(--blue-color);
+}
 
 .clients-icons {
   fill: currentColor;
-}
-
-.clients-link:hover,
-.clients-link:focus {
-  color: var(--blue-color);
 }
 
 /*footer*/
@@ -617,6 +613,9 @@ img {
   -webkit-transition: color var(--transition);
   transition: color var(--transition);
 }
+.footer:hover, .footer:focus {
+  color: var(--primary-color);
+}
 
 .footer .logo {
   display: block;
@@ -634,18 +633,11 @@ img {
   gap: 9px;
 }
 
-.footer:hover,
-.footer:focus {
-  color: var(--primary-color);
-}
-
 .web {
   -webkit-transition: color var(--transition);
   transition: color var(--transition);
 }
-
-.web:hover,
-.web:focus {
+.web:hover, .web:focus {
   color: var(--white-color);
 }
 

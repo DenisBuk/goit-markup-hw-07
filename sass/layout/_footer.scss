@@ -12,6 +12,11 @@
 
     background: var(--footer-color);
     transition: color var(--transition);
+
+    &:hover,
+    &:focus {
+    color: var(--primary-color);
+    }
 }
 
 .footer .logo {
@@ -26,16 +31,12 @@
 
 }
 
-.footer:hover,
-.footer:focus {
-    color: var(--primary-color);
-}
-
 .web {
     transition: color var(--transition);
+
+    &:hover,
+    &:focus {
+    color: var(--white-color);
+    }
 }
 
-.web:hover,
-.web:focus {
-    color: var(--white-color);
-}

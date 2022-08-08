@@ -14,14 +14,14 @@
     border-radius: 4px;
     color: var(--border-icon);
     transition: color var(--transition);
+
+    &:hover,
+    &:focus {
+        color: var(--blue-color);
+    }
 }
 
 .clients-icons {
     fill: currentColor;
 }
 
-.clients-link:hover,
-.clients-link:focus {
-    color: var(--blue-color);
-
-}
