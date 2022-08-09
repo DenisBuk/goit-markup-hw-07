@@ -19,10 +19,11 @@
     border-radius: 50%;
     transition: background-color var(--transition);
 
+&:hover,
+&:focus {
+    background-color: var(--blue-color);
+     --color4: var(--white-color);
+    }
+
 }
 
-.social-link:hover,
-.social-link:focus {
-    background-color: var(--blue-color);
-    --color4: var(--white-color);
-}
